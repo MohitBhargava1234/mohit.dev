@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Mohit's personal developer portfolio and coding projects.">
+  <title>Mohit | Developer Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Mohit<span>.Dev</span></a>
+
+    <button class="menu-toggle" id="menu-toggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#edu">Learning & Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button id="theme-toggle" class="theme-toggle"
+        aria-label="Switch color theme">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>I'm Mohit,<br>
+          an aspiring <span class="gradient-text">developer.</span>
+        </h1>
+        <p class="hero-description">
+          I build creative web experiences, explore Python,
+          and experiment with AI. Every project is a new opportunity to learn.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button primary1" href="#projects">Explore my work ↗</a>
+          <a class="button secondary" href="#contact">Let's connect</a>
+          </div>
+        <div class="social-links">
+           <a href="assets/resume.pdf" download class="btn btn-primary">
+   Download Resume
+    </a>
+          <a href="https://github.com/MohitBhargava1234" target="_blank"
+            rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/mohit-bhargav-a7a908286/" target="_blank"
+            rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="hero-card">
+          <span class="code-icon">{"</>"}</span>
+          <h2 id="typing-text">Creative Developer</h2>
+          <p>Learning. Building. Improving.</p>
+          <div class="code-lines">
+            <span><i>const</i> passion = "coding";</span>
+            <span><i>let</i> creativity = true;</span>
+            <span><i>while</i> (learning) { "grow"; }</span>
+          </div>
+        </div>
+        <span class="floating-badge badge-one">💡 Ideas</span>
+        <span class="floating-badge badge-two">🚀 Building</span>
+      </div>
+    </section>
+
+    <section class="section about reveal" id="about">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2>Curious mind. <span class="gradient-text">Creative code.</span></h2>
+      <p>
+        I'm Mohit, a student and aspiring frontend developer who enjoys
+        turning ideas into real projects. I'm learning how websites work,
+        improving my Python skills, and exploring artificial intelligence.
+        My goal is to create useful, accessible and engaging digital experiences.
+      </p>
+      <div class="stats">
+        <div><strong>HTML & CSS</strong><span>Web foundations</span></div>
+        <div><strong>Python</strong><span>Logic & projects</span></div>
+        <div><strong>AI</strong><span>Exploring possibilities</span></div>
+      </div>
+    </section>
+
+    <section class="section reveal" id="skills">
+      <p class="eyebrow">WHAT I WORK WITH</p>
+      <h2>My <span class="gradient-text">toolbox.</span></h2>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span>🌐</span><h3>HTML5</h3>
+          <p>Semantic page structure</p>
+        </article>
+        <article class="skill-card">
+          <span>🎨</span><h3>CSS3</h3>
+          <p>Layouts and animations</p>
+        </article>
+        <article class="skill-card">
+          <span>⚡</span><h3>JavaScript</h3>
+          <p>Interactive web experiences</p>
+        </article>
+        <article class="skill-card">
+          <span>🐍</span><h3>Python</h3>
+          <p>Logic and automation</p>
+        </article>
+        <article class="skill-card">
+          <span>🤖</span><h3>AI</h3>
+          <p>Tools and experimentation</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="edu">
+  <p class="eyebrow">MY LEARNING JOURNEY</p>
+
+  <h2>Learning & <span class="gradient-text">Certifications.</span></h2>
+
+  <p class="section-description">
+    I'm continuously improving my development skills through self-learning,
+    practical projects, and certification programs.
+  </p>
+
+  <div class="education-grid">
+
+    <article class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <h3>B.Sc.(bio) Student</h3>
+      <p class="edu-subtitle">Maharaja Ganga Singh University</p>
+      <p>
+       Currently pursuing a Bachelor of Science degree with Botany, Chemistry, and Zoology as my core subjects. Developing scientific knowledge, analytical thinking, and problem-solving skills through academic learning.
+      </p>
+    </article>
+   <article class="edu-card certificate-card">
+  <img
+    src="assets/Certificate.jpg"
+    alt="Google AI Agents Intensive Course certificate"
+    class="certificate-image"
+    loading="lazy"
+  >
+
+  <h3>AI QA Certification: Mastering Agentic Testing</h3>
+  <p class="edu-subtitle">Testsigma Academy</p>
+
+  <p>
+    Certificate earned after Mastering Agentic Testing.
+  </p>
+<a href="./assets/Certificate.jpg"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="certificate-link">
+    View full certificate ↗
+</a>
+</article>
+
+<article class="edu-card certificate-card">
+  <img
+    src="assets/Certificate.png"
+    alt="Google AI Agents Intensive Course certificate"
+    class="certificate-image"
+    loading="lazy"
+  >
+
+  <h3>5 Day AI Agents Intensive Course with Google</h3>
+  <p class="edu-subtitle">Google </p>
+
+  <p>
+    Certificate earned after completing the AI Agents Intensive Course.
+  </p>
+
+  <aass
+    href="assets/Certificate.png"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="certificate-link"
+  >
+    View full certificate ↗
+  </a>
+</article>
+
+
+    <article class="edu-card">
+      <div class="edu-icon">💻</div>
+      <h3>Current Learning</h3>
+
+      <div class="learning-tags">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Python</span>
+        <span>AI</span>
+      </div>
+
+      <p>
+        Creating responsive websites, Python projects,
+        and interactive frontend applications.
+      </p>
+    </article>
+
+  </div>
+</section>
+
+    <section class="section reveal" id="projects">
+      <p class="eyebrow">SOME THINGS I'VE BUILT</p>
+      <h2>Featured <span class="gradient-text">projects.</span></h2>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual visual-purple">🤖</div>
+          <div class="project-info">
+            <p class="project-type">PYTHON · CHATBOT</p>
+            <h3>Rule-Based AI Chatbot</h3>
+            <p>A Python chatbot that responds to greetings,
+              emotions and simple user messages.</p>
+            <div class="tags"><span>Python</span><span>Logic</span></div>
+            <a href="https://github.com/MohitBhargava1234/AI-Study-Buddy-Rule-Based-Chat-Assistant-in-Python-.git" target="_blank"
+              rel="noopener noreferrer" class="project-link">
+              View source code ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-orange">💸</div>
+          <div class="project-info">
+            <p class="project-type">PYTHON · FINANCE</p>
+            <h3>Expense Tracker</h3>
+            <p>A beginner-friendly project for recording expenses
+              and understanding spending.</p>
+            <div class="tags"><span>Python</span><span>Data</span></div>
+            <a href="https://github.com/MohitBhargava1234/Expense-tracker-in-phython.git" target="_blank"
+              rel="noopener noreferrer" class="project-link">
+              View source code ↗
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual visual-blue">💻</div>
+          <div class="project-info">
+            <p class="project-type">HTML · CSS · JS</p>
+            <h3>Creative Portfolio</h3>
+            <p>A responsive personal website with animations
+              and a switchable color theme.</p>
+            <div class="tags"><span>Responsive</span><span>UI Design</span></div>
+            <a href="#home" class="project-link">You're viewing it ↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section contact reveal" id="contact">
+      <p class="eyebrow">HAVE AN IDEA?</p>
+      <h2>Let's create something <span class="gradient-text">great.</span></h2>
+      <p>Interested in my work or want to connect? Find me online.</p>
+      <a class="button primary"
+        href="https://github.com/MohitBhargava1234" target="_blank"
+        rel="noopener noreferrer">Connect on GitHub ↗</a>
+        <a class="button primary"
+        href="mailto:mohitbhargav200610@gmail.com">connect on Email ↗</a>
+        <a class="button primary"
+        href="https://www.linkedin.com/in/mohit-bhargav-a7a908286/" target="_blank"
+        rel="noopener noreferrer">Connect on linkedIn ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo">Mohit<span>.Dev</span></a>
+    <p>Designed & built with curiosity 💜</p>
+    <p>© <span id="year"></span> Mohit</p>
+  </footer>
+</body>
+</html>
