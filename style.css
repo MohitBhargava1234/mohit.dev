@@ -801,3 +801,18 @@ footer .logo {
   font-weight: 700;
 }
 
+.project-image {
+ margin: 15px;
+  width: 90%;
+    height: 200px;
+    object-fit:  cover;
+    border-radius: 10px;
+    display: block;
+}
+
+.project-card {
+display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
