@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mohitdev-ten.vercel.app/sitemap.xml
